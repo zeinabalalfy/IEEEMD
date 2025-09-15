@@ -1,0 +1,16 @@
+Functional Requirements
+----------------------
+- Register/Login
+- Search movies by title/genre
+- Admin: Add/Edit/Delete movies
+- Rate/Review movies
+- Create/Share lists
+- Recommendations (based on genre)
+- Notifications for new movies
+
+Non-functional Requirements
+--------------------------
+- Scale: 1M users, 10M movies
+- Latency: <500ms for search
+- Uptime: 99.9%
+- Security: JWT auth
