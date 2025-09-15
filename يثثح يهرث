@@ -1,0 +1,25 @@
+# Deep Dives
+
+- Movie Search
+  - Problem: Search lots of movies fast.
+  - Solution: Search in database, save in cache.
+  - Trade-off: Cache is quick but needs space.
+  - Mistake: Forgot to say cache type (should be Redis).
+
+- Recommendations
+  - Problem: Suggest movies to users.
+  - Solution: Match genres at night, save in movies.
+  - Trade-off: Night job is fast but old data.
+  - Mistake: Said movies (should be Recommendations).
+
+- Notifications
+  - Problem: Send messages to users.
+  - Solution: Queue messages, send push.
+  - Trade-off: Queue is safe but slow.
+  - Mistake: Forgot email notifications.
+
+- Reviews
+  - Problem: Update rating_avg quick.
+  - Solution: Update when review added.
+  - Trade-off: Fast update slows database.
+  - Mistake: Said rating_avg (should be avg_rating).
